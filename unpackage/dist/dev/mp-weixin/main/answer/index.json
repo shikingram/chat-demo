@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "智撩AI问答",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7966ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

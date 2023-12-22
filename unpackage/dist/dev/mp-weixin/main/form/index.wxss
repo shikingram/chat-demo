@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-4eea963f .u-cell__body {
+  padding: 0 !important;
+}
+.adContainer.data-v-4eea963f,
+.tool.data-v-4eea963f {
+  width: 90%;
+  margin: 15rpx auto;
+}
+.adContainer .header .title.data-v-4eea963f,
+.tool .header .title.data-v-4eea963f {
+  margin-bottom: 30rpx;
+}
+.adContainer .grid.data-v-4eea963f,
+.tool .grid.data-v-4eea963f {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.adContainer .grid .item.data-v-4eea963f,
+.tool .grid .item.data-v-4eea963f {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e8eafe;
+  margin: 15rpx 0rpx;
+  padding: 30rpx 0rpx;
+  border-radius: 10rpx;
+}
+.adContainer .grid .item .title.data-v-4eea963f,
+.tool .grid .item .title.data-v-4eea963f {
+  color: #1B2B20;
+  margin-top: 15rpx;
+}
+.adContainer .grid .item .desc.data-v-4eea963f,
+.tool .grid .item .desc.data-v-4eea963f {
+  color: #67776C;
+  font-size: 24rpx;
+}
+.alert.data-v-4eea963f {
+  width: 90%;
+  margin: 30rpx auto;
+}
+.form.data-v-4eea963f {
+  width: 90%;
+  margin: 0 auto;
+  z-index: 999;
+}
+.form .header.data-v-4eea963f {
+  margin-bottom: 30rpx;
+}
+.form .header .title.data-v-4eea963f {
+  text-align: center;
+  color: #fff;
+  margin: 30rpx 0rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.form .panel.data-v-4eea963f {
+  padding: 30rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  box-shadow: 0rpx 10rpx 10rpx #eee;
+}
+.form .panel .textarea.data-v-4eea963f {
+  margin-top: 30rpx;
+}
+.form .panel .btn-group.data-v-4eea963f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.form .panel .btn-group .paste.data-v-4eea963f {
+  width: 40%;
+}
+.form .panel .btn-group .get.data-v-4eea963f {
+  width: 56%;
+}
+.bg.data-v-4eea963f {
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  background-color: #7966ff;
+  min-height: 200rpx;
+  border-radius: 0rpx 0rpx 140rpx 140rpx;
+  z-index: -1;
+}
+.UPOP.data-v-4eea963f {
+  padding: 30rpx;
+}
+.UPOP .title.data-v-4eea963f {
+  align-items: center;
+  display: flex;
+  font-size: 30rpx;
+  font-weight: 450;
+  height: 90rpx;
+  justify-content: center;
+}
+.UPOP .margin.data-v-4eea963f {
+  margin: auto;
+}
+.UPOP .margin .userInfo-box.data-v-4eea963f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.UPOP .margin .userInfo.data-v-4eea963f {
+  align-items: center;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.UPOP .margin .userInfo .info.data-v-4eea963f {
+  color: #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  font-size: 29rpx;
+  justify-content: center;
+}
+.UPOP .margin .userInfo .info .name.data-v-4eea963f {
+  font-size: 40rpx;
+  font-weight: 500;
+}
+.UPOP .margin .userInfo .avatar.data-v-4eea963f {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  margin-right: 30rpx;
+}
+.UPOP .margin .stat.data-v-4eea963f {
+  align-items: center;
+  color: #7966ff;
+  display: flex;
+  font-size: 27rpx;
+  margin-bottom: 30rpx;
+}
+.UPOP .margin .stat .free.data-v-4eea963f,
+.UPOP .margin .stat .have.data-v-4eea963f {
+  background-color: rgba(81, 181, 237, 0.1);
+  border-radius: 7rpx;
+  padding: 13rpx;
+}
+.UPOP .margin .stat .free.data-v-4eea963f {
+  margin-left: 30rpx;
+}
+.UPOP .margin .invite.data-v-4eea963f {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  margin-top: 15rpx;
+}
+.UPOP .margin .invite .info.data-v-4eea963f {
+  line-height: 50rpx;
+}
+.UPOP .margin .invite .info .inviteTitle.data-v-4eea963f {
+  color: #3a3a3a;
+  font-size: 30rpx;
+  font-weight: 450;
+}
+.UPOP .margin .invite .info .award.data-v-4eea963f {
+  color: #3a3a3a;
+  font-size: 28rpx;
+}
+.UPOP .margin .invite .info .award .span.data-v-4eea963f {
+  color: #7966ff;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.UPOP .margin .invite .info .hint.data-v-4eea963f {
+  align-items: center;
+  color: #ababab;
+  display: flex;
+  font-size: 25rpx;
+}
+.UPOP .margin .invite .info .hint .more.data-v-4eea963f {
+  font-size: 40rpx;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+}
+.UPOP .margin .invite .btn.data-v-4eea963f {
+  align-items: center;
+  background-color: rgba(81, 181, 237, 0.1);
+  border-radius: 50rpx;
+  color: #7966ff;
+  display: flex;
+  font-size: 28rpx;
+  height: 60rpx;
+  justify-content: center;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  position: relative;
+}
+.UPOP .margin .invite .btn button.data-v-4eea963f {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.UPOP .margin .videoAd.data-v-4eea963f {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  margin-top: 15rpx;
+}
+.UPOP .margin .videoAd .info.data-v-4eea963f {
+  line-height: 50rpx;
+}
+.UPOP .margin .videoAd .info .videoAdTitle.data-v-4eea963f {
+  color: #3a3a3a;
+  font-size: 30rpx;
+  font-weight: 450;
+}
+.UPOP .margin .videoAd .info .award.data-v-4eea963f {
+  color: #3a3a3a;
+  font-size: 28rpx;
+}
+.UPOP .margin .videoAd .info .award .span.data-v-4eea963f {
+  color: #7966ff;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.UPOP .margin .videoAd .btn.data-v-4eea963f {
+  align-items: center;
+  background-color: rgba(81, 181, 237, 0.1);
+  border-radius: 50rpx;
+  color: #7966ff;
+  display: flex;
+  font-size: 28rpx;
+  height: 60rpx;
+  justify-content: center;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  position: relative;
+}
+

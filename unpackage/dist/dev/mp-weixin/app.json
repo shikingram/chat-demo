@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user"
+  ],
+  "subPackages": [
+    {
+      "root": "main",
+      "pages": [
+        "form/index",
+        "answer/index",
+        "webview/webview",
+        "duihua/duihua",
+        "integral/record"
+      ]
+    },
+    {
+      "root": "system",
+      "pages": [
+        "system",
+        "config/configList",
+        "user/userList"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智撩AI问答",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_art.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user_art.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "main"
+      ]
+    },
+    "system/system": {
+      "network": "all",
+      "packages": [
+        "system"
+      ]
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "积分明细",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7966ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

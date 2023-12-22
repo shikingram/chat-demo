@@ -1,0 +1,132 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智撩AI问答",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subpackages": [
+	    {
+	      "root": "main",
+	      "pages": [
+	        {
+	        	"path": "form/index",
+	        	"style": {
+	        		"navigationBarTitleText": "智撩AI问答",
+	        		"enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	        	}
+	        }, {
+	        	"path": "answer/index",
+	        	"style": {
+	        		"navigationBarTitleText": "智撩AI问答",
+	        		"enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	        	}
+	        }, {
+	        	"path": "webview/webview",
+	        	"style": {
+	        		"navigationBarTitleText": "智撩AI问答",
+	        		"enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	        	}
+	        }, {
+	        	"path": "duihua/duihua",
+	        	"style": {
+	        		"navigationBarTitleText": "智撩AI对话",
+	        		"enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	        	}
+	        }, {
+	        	"path": "integral/record",
+	        	"style": {
+	        		"navigationBarTitleText": "积分明细",
+	        		"enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	        	}
+	        }
+	      ]
+	    }, {
+	      "root": "system",
+	      "pages": [
+	        {
+	            "path" : "system",
+	            "style" : {
+	                "navigationBarTitleText": "管理后台",
+	                "enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	            }
+	        }, {
+	            "path" : "config/configList",
+	            "style" : {
+	                "navigationBarTitleText": "系统配置",
+	                "enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	            }
+	        }, {
+	            "path" : "user/userList",
+	            "style" : {
+	                "navigationBarTitleText": "用户管理",
+	                "enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor": "#7966ff",
+	        		"navigationBarTextStyle": "white"
+	            }
+	        }
+	      ]
+	    }
+	  ],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["main"]
+		},
+		"system/system": {
+			"network": "all",
+			"packages": ["system"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智撩AI问答",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#000000",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabbar/home.png",
+	        "selectedIconPath": "static/tabbar/home_art.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/user/user",
+	        "iconPath": "static/tabbar/user.png",
+	        "selectedIconPath": "static/tabbar/user_art.png",
+	        "text": "我的"
+	    }]
+	}
+}

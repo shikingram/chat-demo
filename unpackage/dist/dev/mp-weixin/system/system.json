@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "管理后台",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7966ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "智撩AI问答",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7966ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-transition": "/uview-ui/components/u-transition/u-transition",
+    "u-cell": "/uview-ui/components/u-cell/u-cell",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u--textarea": "/uview-ui/components/u--textarea/u--textarea",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-alert": "/uview-ui/components/u-alert/u-alert",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "wx-login": "/components/wxLogin/wxLogin",
+    "models": "/components/model/model",
+    "weixin-login": "/components/wxLogin/wxLogin"
+  }
+}

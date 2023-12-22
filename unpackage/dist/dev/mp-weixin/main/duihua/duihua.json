@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "智撩AI对话",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7966ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-loading-icon": "/uview-ui/components/u-loading-icon/u-loading-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-cell": "/uview-ui/components/u-cell/u-cell",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "wx-login": "/components/wxLogin/wxLogin",
+    "models": "/components/model/model",
+    "weixin-login": "/components/wxLogin/wxLogin"
+  }
+}
